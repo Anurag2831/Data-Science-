@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, classification_report
 data = pd.read_csv('sms_spam.csv')
 
 # Data preprocessing
-# (Assuming 'label' column contains the labels and 'text' column contains the SMS messages)
+
 X = data['text']
 y = data['label']
 
